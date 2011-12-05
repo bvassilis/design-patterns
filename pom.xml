@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.design.patterns</groupId>
+    <artifactId>design-patterns</artifactId>
+    <version>0.1</version>
+    <packaging>jar</packaging>
+    <name>design-patterns</name>
+    <url>http://github.com/bvassilis/design-patterns</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <issueManagement>
+        <system>Github.org</system>
+        <url>http://github.com/bvassilis/design-patterns/issues</url>
+    </issueManagement>
+    <scm>
+        <url>http://github.com/bvassilis/design-patterns</url>
+        <developerConnection>scm:git:https://bvassilis@github.com/bvassilis/design.patterns.git</developerConnection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>https://github.com/bvassilis/design-patterns/raw/master/releases</url>
+        </repository>        
+    </distributionManagement>
+    <organization>
+        <name>org.design.patterns</name>
+        <url>http://org.design.patterns</url>
+    </organization>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            
+        </plugins>
+    </build>
+</project>
+
